@@ -153,12 +153,13 @@ class PlatformWin(QtWidgets.QMainWindow, UI.Ui_PlatformWin.Ui_PlatformWin):
         self.starButton.setVisible(True)
         self.commentButton.setVisible(True)
         self.saveAsButton.setVisible(True)
+        self.titleEdit.setVisible(True)
         if self.fileInfoList[curRow]['account'] == self.account:
             self.deleteButton.setVisible(True)
         else:
             self.deleteButton.setVisible(False)
 
-    # 文件删除（涉及到服务器通信，暂时无效）
+    # 文件删除
     def fileDelete(self):
         # 弹出提示窗口询问
         messageBox = QMessageBox()
@@ -241,6 +242,7 @@ class PlatformWin(QtWidgets.QMainWindow, UI.Ui_PlatformWin.Ui_PlatformWin):
     def disablePage(self):
         self.pageWidget.setEnabled(False)
         # 隐藏按钮
+        self.titleEdit.setVisible(False)
         self.starButton.setVisible(False)
         self.commentButton.setVisible(False)
         self.deleteButton.setVisible(False)
