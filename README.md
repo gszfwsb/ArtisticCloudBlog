@@ -1,7 +1,7 @@
 # ArtisticCloudBlog
- stylized images and videos
+Original Paper:![Perceptual Losses for Real-Time Style Transfer and Super-Resolution]https://arxiv.org/pdf/1603.08155.pdf
 
-Want to be a Van Gogh/Picasso/Xu beihong?
+Want to be a Van Gogh/Picasso/Xu beihong? Stylized images and videos are all you need.
 
 To run this code.
 First of all, make sure your requirements are suitable for this. Please check requirements.txt for details
