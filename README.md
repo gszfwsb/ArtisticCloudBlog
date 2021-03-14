@@ -4,8 +4,7 @@ Original Paper:[Perceptual Losses for Real-Time Style Transfer and Super-Resolut
 Want to be a Van Gogh/Picasso/Xu beihong? Stylized images and videos are all you need.
 
 To run this code.
-First of all, make sure your requirements are suitable for this project. \\ Please check requirements.txt for details。
-Then,
+First of all, make sure your requirements are suitable for this project. Please check requirements.txt for details. Then,
 - Run server.py
 - Run client.py
 
